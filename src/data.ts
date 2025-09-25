@@ -172,6 +172,7 @@ export const certificados: Certificate[] = [
         id: 'js-web-api', 
         tech: 'JavaScript', 
         category: 'frontend', 
+        // eslint-disable-next-line no-script-url
         title: 'JavaScript: Web API, Componentes y Testing', 
         url: '/certificados/certificado_javascript__web_api_componentes_y_testing.pdf',
         platform: 'OpenWebinars',
