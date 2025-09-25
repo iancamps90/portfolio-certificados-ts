@@ -75,3 +75,4 @@ El problema de GitHub Pages es específico de Windows y nombres de archivo largo
 ---
 
 **¡Tu portafolio está listo para deploy! 🎓✨**
+
