@@ -424,7 +424,7 @@ export const certificados: Certificate[] = [
         tech: 'Excel', 
         category: 'tools', 
         title: 'Excel: Funciones Avanzadas', 
-        url: '/certificados/certificado_curso_de_excel__funciones_avanzadas.pdf',
+        url: '/certificados/certificado_curso_de_excel__funciones_avanzadas-1.pdf',
         platform: 'OpenWebinars',
         level: 'intermediate',
         hours: 7,
