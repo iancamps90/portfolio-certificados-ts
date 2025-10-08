@@ -42,6 +42,38 @@ const App: React.FC = () => {
             </div>
             
             <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+              <a 
+                href="https://iancamps.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ 
+                  color: '#059669',
+                  textDecoration: 'none',
+                  fontSize: '0.875rem',
+                  fontWeight: '500',
+                  padding: '0.5rem 1rem',
+                  borderRadius: '8px',
+                  border: '1px solid #10b981',
+                  background: 'white',
+                  transition: 'all 0.3s ease',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem'
+                }}
+                onMouseOver={(e) => {
+                  e.currentTarget.style.background = '#10b981';
+                  e.currentTarget.style.color = 'white';
+                  e.currentTarget.style.borderColor = '#10b981';
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.background = 'white';
+                  e.currentTarget.style.color = '#059669';
+                  e.currentTarget.style.borderColor = '#10b981';
+                }}
+              >
+                <i className="fas fa-home"></i> Ir a IanCamps.dev
+              </a>
+              
               <Link 
                 to="/search"
                 style={{ 
@@ -157,8 +189,38 @@ const App: React.FC = () => {
             <div style={{ 
               display: 'flex',
               gap: '1rem',
-              fontSize: '0.875rem'
+              fontSize: '0.875rem',
+              alignItems: 'center'
             }}>
+              <a 
+                href="https://iancamps.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ 
+                  color: '#10b981', 
+                  textDecoration: 'none',
+                  transition: 'color 0.3s ease',
+                  fontWeight: '500',
+                  padding: '0.5rem 1rem',
+                  borderRadius: '6px',
+                  border: '1px solid #10b981',
+                  background: 'rgba(16, 185, 129, 0.1)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem'
+                }}
+                onMouseOver={(e) => {
+                  e.currentTarget.style.background = '#10b981';
+                  e.currentTarget.style.color = 'white';
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.background = 'rgba(16, 185, 129, 0.1)';
+                  e.currentTarget.style.color = '#10b981';
+                }}
+              >
+                <i className="fas fa-home"></i> IanCamps.dev
+              </a>
+              
               <a 
                 href="https://github.com/iancamps90" 
                 target="_blank" 
