@@ -43,7 +43,11 @@ const CertificateCard: React.FC<CertificateCardProps> = ({ certificate, showDeta
             </div>
 
             <button
-                onClick={() => window.open(certificate.url, '_blank')}
+                onClick={() => {
+                    // Construir la URL completa del PDF
+                    const pdfUrl = `${process.env.PUBLIC_URL}${certificate.url}`;
+                    window.open(pdfUrl, '_blank');
+                }}
                 className="button"
                 style={{ border: 'none', cursor: 'pointer' }}
             >
